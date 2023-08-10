@@ -1,0 +1,82 @@
+.mainBlock {
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: rgb(241 241 241);
+  padding-bottom: 50px;
+}
+
+.navCointainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.navCointainer img {
+  width: 80px;
+  padding: 20px;
+}
+
+.navCointainer > div {
+  background-color: rgb(26 52 65);
+  color: white;
+  display: flex;
+}
+
+.navCointainer li {
+  list-style: none;
+  margin: 20px;
+}
+
+.headerImg {
+  display: flex;
+  background-color: rgb(174 196 59);
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.aboutBlock {
+  display: flex;
+  margin-top: 20px;
+}
+
+.aboutBlock > div {
+  background-color: white;
+  padding: 20px;
+}
+
+.aboutBlock > div:nth-child(1), .aboutBlock > div:nth-child(2) {
+  margin-right: 10px;
+}
+
+.contentBlock {
+  display: flex;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 2;
+}
+
+.sideNav {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1;
+}
+
+.menuLinks{
+  background-color: rgb(236 236 236);
+  height: 100%;
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
