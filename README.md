@@ -1,3 +1,1 @@
 ## React introduction
-
-test
