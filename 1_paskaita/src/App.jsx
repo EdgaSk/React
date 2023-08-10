@@ -5,10 +5,10 @@ const App = () => {
        <nav className="navCointainer">
           <img src="src/assets/react.svg" alt="" />
           <div>
-            <li>Home</li>
-            <li>Product</li>
-            <li>Company</li>
-            <li>Contact</li>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">Company</a>
+            <a href="#">Contact</a>
           </div>
        </nav>
        <main>
@@ -39,10 +39,10 @@ const App = () => {
             <div className="sideNav">
               <h2>Navigation</h2>
               <div className="menuLinks">
-                <li>Home</li>
-                <li>Product</li>
-                <li>Company</li>
-                <li>Contact</li>
+                <a href="#">Home</a>
+                <a href="#">Product</a>
+                <a href="#">Company</a>
+                <a href="#">Contact</a>
               </div>
             </div>
           </div>
