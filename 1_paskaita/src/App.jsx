@@ -3,7 +3,7 @@ const App = () => {
   return(
     <div className="mainBlock">
        <nav className="navCointainer">
-          <img src="src/assets/react.svg" alt="" />
+          <img src="src/assets/sitelogo.png" alt="" />
           <div>
             <a href="#">Home</a>
             <a href="#">Product</a>

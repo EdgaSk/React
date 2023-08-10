@@ -1,8 +1,12 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+
 .mainBlock {
-  padding-left: 20%;
-  padding-right: 20%;
-  background-color: rgb(241 241 241);
   padding-bottom: 50px;
+  width: 1200px;
 }
 
 .navCointainer {
@@ -12,8 +16,8 @@
 }
 
 .navCointainer img {
-  width: 80px;
-  padding: 20px;
+  width: 170px;
+  padding: 10px;
 }
 
 .navCointainer > div {
