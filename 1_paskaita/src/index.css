@@ -20,7 +20,7 @@ body {
   padding: 10px;
 }
 
-.navCointainer > div {
+.navCointainer > nav {
   background-color: rgb(26 52 65);
   color: white;
   display: flex;

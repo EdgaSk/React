@@ -2,15 +2,15 @@ const App = () => {
 
   return(
     <div className="mainBlock">
-       <nav className="navCointainer">
+       <header className="navCointainer">
           <img src="src/assets/sitelogo.png" alt="" />
-          <div>
+          <nav>
             <a href="#">Home</a>
             <a href="#">Product</a>
             <a href="#">Company</a>
             <a href="#">Contact</a>
-          </div>
-       </nav>
+          </nav>
+       </header>
        <main>
           <div className="headerImg">
               <h1>Header Image</h1>
