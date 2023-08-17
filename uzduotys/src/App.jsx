@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./components/Card";
+import Avatar from "./components/Avatar";
 
 const App = () => {
   return (
@@ -13,6 +14,14 @@ const App = () => {
         url="https://i.pinimg.com/564x/0c/9f/36/0c9f362eb7fd5d06af157257b49a6a8d.jpg"
         title="Lizard 2"
         cardText="Lizard are a widespread group of squamete reptiles, with over 6000 species, ranging across all continents except Antarctica"
+      />
+      <Avatar
+        name="Vardas"
+        surname="Pavarde"
+      />
+      <Avatar
+        name="Ponas"
+        surname="Makaronas"
       />
     </>
   );
