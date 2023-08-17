@@ -11,7 +11,7 @@ const Card = (props) => {
     );
 };
 
-Card.PropTypes = {
+Card.propTypes = {
     url: PropTypes.string,
     title: PropTypes.string,
     cardText: PropTypes.string,

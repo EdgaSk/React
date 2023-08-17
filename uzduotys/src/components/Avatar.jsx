@@ -9,7 +9,7 @@ const Avatar = (props) => {
     );
 };
 
-Avatar.PropTypes = {
+Avatar.propTypes = {
     name: PropTypes.string,
     surname: PropTypes.string,
 }
