@@ -4,7 +4,7 @@ import "./styles/styles.css";
 const Card = (props) => {
     return(
         <div className="cardCointainer">
-            <img src={props.url} alt={props.title} />
+            <img src={props.url}/>
             <h1>{props.title}</h1>
             <p>{props.cardText}</p>
         </div>
