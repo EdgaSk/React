@@ -1,0 +1,10 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
