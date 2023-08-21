@@ -1,7 +1,14 @@
+import Soon from "../assets/image/soon.png";
+import "../components/general.css";
+import React from 'react';
+
 const NFTranking = () => {
     return (
         <>
-            <h1>NFT Ranking</h1>
+            <div className="cointainerSoon">
+                <h1>NFT Ranking</h1>
+                <img className="soonImg" src={Soon} alt="" />
+            </div>
         </>
     );
 }

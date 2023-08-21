@@ -1,0 +1,10 @@
+.cointainerSoon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.soonImg {
+    width: 60%;
+}
