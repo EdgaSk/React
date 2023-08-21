@@ -1,0 +1,19 @@
+.sectionTitle {
+    font-size: 1.5rem;
+}
+
+.liveBidding {
+    margin-top: 50px;
+}
+
+.mrlr50 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cardCointainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 20px 0;
+    gap: 20px;
+}

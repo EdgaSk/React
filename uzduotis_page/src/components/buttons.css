@@ -1,0 +1,21 @@
+.lbtn, .dbtn {
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.lbtn {
+    background-color: #00a3ff;
+}
+
+.dbtn {
+    background-color: #212e48;
+}
+
+.lbtn:hover, .dbtn:hover {
+    background-color: #969697;
+}

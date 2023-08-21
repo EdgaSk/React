@@ -1,0 +1,11 @@
+.fotterCointainer {
+    background-color: #1f1f2c;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+}
+
+.footerLogo {
+    width: 300px;
+}

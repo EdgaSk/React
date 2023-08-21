@@ -1,0 +1,25 @@
+.nftCardBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #242435;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.cardImg {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cardInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    column-gap: none;
+    margin-top: 20px;
+}
+
+p {
+    margin:5px 0;
+}

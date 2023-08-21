@@ -1,0 +1,84 @@
+.navCointainer {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 80px;
+    position: sticky;
+    top: 0;
+    justify-content:space-between;
+}
+
+.logoImg {
+    height: 70px;
+    margin-left: 20px;
+}
+
+.linksCointainer {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex: 2;
+    justify-content: center;
+}
+
+.linksCointainer li{
+    display: flex;
+    padding: 20px;
+}
+
+li a{
+    color: #acacac;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+li a:hover {
+    color: #00a3ff;
+}
+
+.rightCointainer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.searchCointainer {
+    display: flex;
+    margin-right: 20px;
+    border: 1px solid #acacac;
+    border-radius: 10px;
+}
+
+.searchCointainer > input, .searchCointainer > button {
+    background-color: transparent;
+    border: none;
+    height: 38px;
+    color: #acacac;
+}
+
+.searchCointainer > input::placeholder{
+    padding-left: 10px;
+}
+
+.searchCointainer img {
+    height: 70%;
+}
+
+.searchCointainer > button {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+.walletBtn {
+    width: 150px;
+    height: 40px;
+    background-color: #212e48;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.walletBtn:hover {
+    background-color: #00a3ff;
+}
