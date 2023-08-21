@@ -8,6 +8,9 @@ const Footer = () => {
             <div className="firstCol">
                 <img className="footerLogo"src={Logo}/>
             </div>
+            <div className="bottomFooter">
+                <p>©2022 NFT MarketPlace, Inc. All rights reserved.</p>
+            </div>
         </footer>
     )
 }
