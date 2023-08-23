@@ -4,7 +4,3 @@ body {
     background-color: rgb(209, 209, 209);
 }
 
-#root {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
