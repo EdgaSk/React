@@ -43,12 +43,11 @@ const App = () => {
       <div className="colorsCointainer">
           <div className="colorCirkle" style={{background:(color)}}></div>
           <div className="buttonsColor">
-          <button style={{ background: "red" }} onClick={() => setColor("red")}>Red</button>
-          <button style={{ background: "yellow" }} onClick={() => setColor("yellow")}>Yellow</button>
-          <button style={{ background: "blue" }} onClick={() => setColor("blue")}>Blue</button>
-          <button style={{ background: "green" }} onClick={() => setColor("green")}>Green</button>
-          <button style={{ background: "purple" }} onClick={() => setColor("purple")}>Purple</button>
-
+            <button style={{ background: "red" }} onClick={() => setColor("red")}>Red</button>
+            <button style={{ background: "yellow" }} onClick={() => setColor("yellow")}>Yellow</button>
+            <button style={{ background: "blue" }} onClick={() => setColor("blue")}>Blue</button>
+            <button style={{ background: "green" }} onClick={() => setColor("green")}>Green</button>
+            <button style={{ background: "purple" }} onClick={() => setColor("purple")}>Purple</button>
           </div>
       </div>
     </>
