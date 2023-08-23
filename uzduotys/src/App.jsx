@@ -30,7 +30,7 @@ const App = () => {
           />
     </div>
 
-      
+      {/* Bankomato Uzduotis */}
       <div className="bankCointainer">
           <div>My Money&nbsp;{count}&nbsp;&euro;</div>
           <div>
@@ -39,7 +39,7 @@ const App = () => {
              <button className="bankBtn" onClick={() => setCount(0)}>Balance 0 &euro;</button>
           </div>
       </div>
-
+    {/* Spalvu uzduotis */}
       <div className="colorsCointainer">
           <div className="colorCirkle" style={{background:(color)}}></div>
           <div className="buttonsColor">
