@@ -9,7 +9,7 @@ const App = () => {
   const [color, setColor] = useState("");
   return (
     <>
-    <div className="cointainer">
+      <div className="cointainer">
         <Card
             url="https://img.freepik.com/premium-photo/cute-cartoon-lizard-character-3d-animation-white-background_570929-3580.jpg"
             title="Lizard"
@@ -28,18 +28,18 @@ const App = () => {
             name="Ponas"
             surname="Makaronas"
           />
-    </div>
-
-      {/* Bankomato Uzduotis */}
-      <div className="bankCointainer">
-          <div>My Money&nbsp;{count}&nbsp;&euro;</div>
-          <div>
-             <button className="bankBtn" onClick={() => setCount(count + 500)}>Add 500 &euro;</button>
-             <button className="bankBtn" onClick={() => setCount(count - 500)}>Out 500 &euro;</button>
-             <button className="bankBtn" onClick={() => setCount(0)}>Balance 0 &euro;</button>
-          </div>
       </div>
-    {/* Spalvu uzduotis */}
+
+        {/* Bankomato Uzduotis */}
+        <div className="bankCointainer">
+            <div>My Money&nbsp;{count}&nbsp;&euro;</div>
+            <div>
+               <button className="bankBtn" onClick={() => setCount(count + 500)}>Add 500 &euro;</button>
+               <button className="bankBtn" onClick={() => setCount(count - 500)}>Out 500 &euro;</button>
+               <button className="bankBtn" onClick={() => setCount(0)}>Balance 0 &euro;</button>
+            </div>
+        </div>
+      {/* Spalvu uzduotis */}
       <div className="colorsCointainer">
           <div className="colorCirkle" style={{background:(color)}}></div>
           <div className="buttonsColor">
