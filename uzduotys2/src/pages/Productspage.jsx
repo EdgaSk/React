@@ -1,8 +1,8 @@
-import Products from "../components/Products";
+import ProductList from "../components/ProductList";
 const ProductsPage = () => {
     return(
         <div>
-            <Products/>
+            <ProductList/>
         </div>
     )
 }

@@ -11,7 +11,10 @@ const Products = () => {
         .then((response) => {
             setProductsData(response);
             setIsLoading(false);
-        });
+        })
+        .catch((error) =>{
+            console.error("Products fetch failed:", error);
+        })
     },[]);
 
     const deleteProduct = (productId) => {

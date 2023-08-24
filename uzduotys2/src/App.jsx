@@ -2,7 +2,7 @@ import './App.css'
 import NavBar from './components/NavBar'
 import {Route, Routes} from "react-router-dom";
 import PostPage from './pages/Postspage';
-import Products from './pages/Productspage';
+import ProductsPage from './pages/ProductsPage';
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element={<PostPage/>}/>
-        <Route path='/products' element={<Products/>}/>
+        <Route path='/products' element={<ProductsPage/>}/>
       </Routes>
       
     </>
