@@ -1,4 +1,4 @@
-import "./styles/Products.css";
+import "./styles/ProductList.css";
 import { useEffect, useState } from "react";
 
 const Products = () => {
@@ -30,7 +30,7 @@ const Products = () => {
                 <h1 className="loadingTitle">Loading...</h1>
             ) : (
                 productsData.map((productData)=> (
-                    <div key={productData.id}>
+                    <div className="productBox" key={productData.id}>
                         <img src={productData.image}/>
                         <p>{productData.title}</p>
                         <p>{productData.price}&nbsp;&euro;</p>
