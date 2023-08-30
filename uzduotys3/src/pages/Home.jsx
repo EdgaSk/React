@@ -3,7 +3,7 @@ import "./styles/Home.css"
 
 const Home = () => {
     return (
-        <main>
+        <main className="homeMainCointainer">
             <Hero/>
             <p className="textBox">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas nulla, natus officiis temporibus, fugiat iste deleniti eos ullam nesciunt perspiciatis possimus neque, quia quod! Sunt magnam architecto amet tempore odit.
             Ipsum nemo praesentium error nobis eligendi culpa inventore incidunt quibusdam non, eum minima nihil quas architecto amet laudantium sit debitis blanditiis omnis iste. Amet eius delectus nobis ut. Illum, ab?
