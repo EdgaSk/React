@@ -1,0 +1,17 @@
+.usersCointainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 50px;
+}
+
+.usersCard {
+    background-color: rgb(192, 192, 192);
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.usersImg {
+    width: 100%;
+}

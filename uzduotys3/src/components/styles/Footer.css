@@ -1,0 +1,12 @@
+.footerCointainer {
+    display: flex;
+    background-color: black;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerCointainer p {
+    color: white;
+    margin: 0;
+}
